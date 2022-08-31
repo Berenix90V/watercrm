@@ -1,0 +1,6 @@
+/* da qui inizia lo stile del portale */
+@import "general-rule.css";
+@import "main.css";
+@import "table.css";
+@import "single.css";
+@import "qr-code.css";

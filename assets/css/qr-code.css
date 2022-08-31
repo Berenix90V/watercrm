@@ -1,0 +1,26 @@
+#qr-Coder {
+    width:100%;
+    padding:20px 15px;
+}
+
+#qr-Coder .select-camera .choose-camera:first-child {
+    margin-left:0;
+}
+
+#qr-Coder .videocamera {
+    width:100%;
+}
+
+#qr-Coder .videocamera #preview {
+    width:100%;
+}
+
+#qr-Coder .choose-camera {
+    background-color:#FFF;
+    padding:0 10px;
+    line-height: 30px;
+    height:30px;
+    display: inline-block;
+    margin:0 4px;
+    cursor: pointer;
+}

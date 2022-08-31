@@ -1,0 +1,28 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+img {
+    border:none;
+}
+
+.clear {
+    clear:both;
+}
+
+body {
+    background-color:#1E5DC7;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-bottom:40px;
+}
+
+#menu i {
+    color:#FFF!important;
+    font-size:22px;
+    line-height: 40px;
+}
+
+#menu {
+    cursor: pointer!important;
+}

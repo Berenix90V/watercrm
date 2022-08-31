@@ -1,0 +1,68 @@
+.mobile-column-name {
+    display: none;
+}
+/*paginazione delle tabelle*/
+#home_table_paginate a, .dataTables_paginate a {
+    border:1px solid #FFF!important;
+}
+
+#home_table_paginate .paginate_button.current, .dataTables_paginate .paginate_button.current{
+    background:rgba(255,255,255,0.4)!important;
+    border:1px solid #FFF!important;
+}
+/*azioni nelle tabelle*/
+
+td a.registry-button, td a.deadline-button, td a.dates-button {
+    display: block;
+    height:35px;
+    width: 35px;
+    margin:0 10px;
+    text-align: center;
+    line-height: 35px;
+    float:left;
+    border:1px solid #1E5DC7;
+    border-radius: 50%;
+}
+td a.registry-button .text, td a.deadline-button .text, td a.dates-button .text {
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .mobile-column-name {
+        display: inline;
+        font-weight: 600;
+    }
+
+    thead {
+        display: none;
+        width:100%;
+    }
+
+    td, tr, table,tbody {
+        display: block!important;
+        width:100%;
+        border:none!important;
+    }
+
+    tr {
+        margin-bottom:3px!important;
+    }
+
+    td {
+        min-height:30px!important;
+        border:1px solid #ddd!important;
+    }
+
+    .table-bordered td, .table-bordered th {
+        box-sizing: border-box!important;
+        min-height:50px!important;
+    }
+
+    .actions-button, .add_dl, .view_dl {
+        display: block;
+        float:right;
+    }
+
+   
+
+}
